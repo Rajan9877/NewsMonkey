@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Footer extends Component {
-  render() {
+const Footer = () => {
     return (
       <>
         <div style={{padding: "5px", marginTop: "10px"}} className="card-footer text-muted">
@@ -10,6 +9,5 @@ export class Footer extends Component {
       </>
     )
   }
-}
 
 export default Footer
